@@ -1,0 +1,8 @@
+# Ignore all files with a .min.js extension
+*.min.js
+
+# Ignore a specific directory
+build/
+
+# Ignore a specific file
+src/generated.ts

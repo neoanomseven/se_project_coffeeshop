@@ -1,0 +1,80 @@
+.footer {
+    
+}
+
+.footer__logo {
+
+}
+
+.footer__content {
+    padding: 100px 0 120px 80px;
+    background-color: #0A2850;
+    background-position: 122px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px; 
+    background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+    color: #FFF;
+    position: relative;
+}
+
+.footer__social-heading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFF;
+    right: 159px;
+    position: absolute;
+    bottom: 184px;
+}
+
+.footer__list {
+    color: #FFF;
+    right: 180px;
+    position: absolute;
+    bottom: 112px;
+}
+
+.footer__list-item {
+    color: #FFF;
+    list-style-type: none;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 179px;
+    bottom: 30px;
+}
+
+.footer__social-icon {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    bottom: 40px;
+}
+
+.footer__social-link {
+    background-color: #0A2850;
+    width: 100px;
+    height: 100px;
+    transition: background-color 0.5s ease-in-out, width 0.3s linear;
+    color: #FFF;
+}
+
+.footer__social-link:hover {
+    background-color: #C1C1C1;
+}
+
+.footer__copyright {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFF;
+    position: absolute;
+    bottom: 40px;
+}

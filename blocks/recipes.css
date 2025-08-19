@@ -1,0 +1,84 @@
+.recipes {
+    padding: 100px 0 120px 80px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: #0a2750;
+    background-image: url("../images/background_recipes.svg");
+    background-position: 122px;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    height: 800px;
+}
+
+.recipes__content {
+
+}
+
+.recipes__title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    max-width: 580px;
+    left: 80px;
+    color: #FFFFFF;
+
+}
+
+.recipes__subtitle {
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    position: absolute;
+    left: 383px;
+    color: #FFFFFF;
+    max-width: 500px;
+}
+
+.recipes__videos {
+   position: absolute;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 40px;
+   bottom: -500px;
+   left: 525px;
+   right: 150px;
+}
+
+.recipes__iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 273px;
+}
+
+.recipes__video-caption-1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    position: absolute;
+    bottom: -100px;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.recipes__video-caption-2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    position: absolute;
+    bottom: -100px;
+    display: flex;
+    color: #FFFFFF;
+    right: 540px;
+}
